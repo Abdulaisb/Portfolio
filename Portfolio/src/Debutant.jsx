@@ -5,15 +5,16 @@ import mongoose from './assets/mongoose.svg'
 import google_cloud from './assets/google_cloud.svg'
 import tailwind from './assets/tailwind.svg'
 import github from './assets/github.svg'
-
+import debutant_img from './assets/debutant.png'
 
 
 function Debutant() {
 
     const icon_style = {width: '2.5rem', height: '2.5rem'};
+    const img_style = {width: '30rem'}
     
     return (
-        <div className="h-pb border-2 border-white w-3/4 flex flex-row px-24 py-6 bg-zinc-800">
+        <div className="mb-10 h-pb border-2 border-white w-3/4 flex flex-row px-24 py-6 bg-zinc-800 rounded-xl">
             <div className="flex flex-col w-1/2">
                 <div className="font-bold text-4xl">Debutant</div>
                 <div className= ' mt-4 h-12 flex flex-row items-center '>
@@ -39,8 +40,8 @@ function Debutant() {
                     <div><img src = {github} style={icon_style}/></div>
                 </a>
             </div>
-            <div className="w-1/2 flex justify-center items-center">
-                <div className="border-2 border-white w-96 h-96 "></div>
+            <div className="w-1/2 flex items-center">
+                <img className = "ml-10 border-2 border-white rounded-xl" src = {debutant_img} style = {img_style}/>
             </div>
         </div>
     );

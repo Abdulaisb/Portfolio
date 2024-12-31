@@ -3,7 +3,6 @@ import linkedin from './assets/linkedin.svg'
 
 function Navbar() {
     const icon_style = {width: '2.5rem', height: '2.5rem'};
-    const github_link = {pathname: "https://github.com/Abdulaisb", target: "_blank"}
     const btnStyle = 'rounded-2xl flex justify-center w-1/4 h-full items-center font-bold hover:bg-zinc-600 cursor-pointer';
     return (
         <div className='r-b-lg opacity-70 sticky top-0 h-16 w-full flex flex-row items-center border-white border-b-0 bg-zinc-800'>
@@ -12,7 +11,7 @@ function Navbar() {
                 <div className = {btnStyle}>Home</div>
                 <div className = {btnStyle}>Projects</div>
                 <div className = {btnStyle}>Experience</div>
-                <div className = {btnStyle}>End</div>
+                <div className = {btnStyle}>Contact Me</div>
             </div>
             <div className='w-1/5 flex flex-row justify-center'>
                 <a href = "https://github.com/Abdulaisb" target='_blank'>
