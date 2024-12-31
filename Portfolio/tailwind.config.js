@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       height: {
-        
+        'pb' : '32rem'
       }
     },
   },

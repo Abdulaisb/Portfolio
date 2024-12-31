@@ -1,10 +1,9 @@
 import reactLogo from './assets/react.svg'
 
-
 function Greeting() {
     return (
         <div className="h-screen">
-            <div className="h-screen bg-[url('./assets/Night_Sky.webp')] pt-32 flex flex-col items-center">
+            <div className="h-screen bg-[url('./assets/night_sky.jpg')] pt-32 flex flex-col items-center">
                 <div>
                     <div className='font-semibold text-5xl'>Hello, I'm Abdulai</div>
                     <div className='h-32 w-1/2 text-xl mt-6'>
