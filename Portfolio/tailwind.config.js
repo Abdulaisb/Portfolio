@@ -8,6 +8,9 @@ export default {
     extend: {
       height: {
         'pb' : '32rem'
+      },
+      width: {
+        'g' : '100rem'
       }
     },
   },
