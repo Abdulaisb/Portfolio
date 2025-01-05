@@ -6,7 +6,7 @@ import Revs from "./Revs"
 
 function Projects() {
     return (
-        <div className="flex flex-col items-center pt-10 pb-24">
+        <div className="flex flex-col items-center pt-10 pb-24" id = 'projects'>
             <div className="text-5xl h-32 "> Project Showcase</div>
                 <Debutant/>
                 <Tracer/>

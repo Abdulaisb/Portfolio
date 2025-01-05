@@ -3,14 +3,14 @@ import me from "./assets/1.jpg"
 
 function About() {
     return (
-        <div className="w-full flex flex-col items-center pb-20">
+        <div className="w-full flex flex-col items-center pb-20" id = 'about'>
             <div className="h-pb min-w-[50rem] max-w-[80rem] flex py-10">
                 <div className="basis-1/2 flex flex-col p-8">
                     <div className="text-5xl mb-6">About Me</div>
                     <div>
                         I'm a Senior at Texas A&M pursuing a Bachelor's in Computer Engineering with a minor in Mathematics.
                         My passion lies in developing software that will leave a positive mark on the world.
-                        Towards that end, I'm always looking to learn something new and improve my skillset.
+                        Towards that end, I'm always looking to learn new technologies and improve my skillset.
                     </div>
                     <div className="text-3xl mt-4 mb-2">Interests</div>
                     <ul className="list-disc pl-6">

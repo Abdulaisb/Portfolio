@@ -2,7 +2,7 @@
 
 function Teaching() {
     return (
-        <div className="flex flex-col w-3/4 border-2 border-white px-4 rounded-xl bg-zinc-800 mb-10">
+        <div className="hover:bg-zinc-700 flex flex-col w-3/4 min-w-[50rem] max-w-[80rem] border-2 border-white px-4 rounded-xl bg-zinc-800 mb-10">
             <div className="w-full border-b-2 border-white flex mb-2 py-4">
                 <div className="basis-3/4 text-3xl font-semibold ">Texas A&M Computer Science and Engineering</div>
                 <div className="basis-1/4 text-lg flex items-center justify-end">August 2024 - Present</div>

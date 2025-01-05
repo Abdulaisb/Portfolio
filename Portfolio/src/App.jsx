@@ -1,9 +1,9 @@
-import { useState } from 'react'
 import Navbar from './Navbar'
 import Greeting from './Greeting'
 import Projects from './Projects'
 import Experience from './Experience'
 import About from './About'
+
 
 function App() {
 

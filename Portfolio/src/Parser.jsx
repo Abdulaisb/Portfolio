@@ -5,12 +5,12 @@ import ardupilot from './assets/ardupilot.svg'
 import mp from './assets/mp.ico'
 
 function Parser() {
-        const icon_style = {width: '2.5rem', height: '2.5rem'};
+        const icon_style = {'width': '2.5rem', height: '2.5rem', minWidth: '2.5rem'};
         const ap_style = {width: '10rem', height: '2.5rem'};
         const img_style = {width: '30rem'}
             
         return (
-            <div className="mb-10 h-pb border-2 border-white w-3/4 flex flex-row px-24 py-6 bg-zinc-800 rounded-xl">
+            <div className=" overflow-auto mb-10 h-pb min-w-[50rem] max-w-[80rem] border-2 border-white w-3/4 flex flex-row px-24 py-6 bg-zinc-800 rounded-xl">
                 <div className="flex flex-col w-1/2">
                     <div className="font-bold text-4xl">Drone Command Parser</div>
                     <div className= ' mt-4 h-12 flex flex-row items-center '>

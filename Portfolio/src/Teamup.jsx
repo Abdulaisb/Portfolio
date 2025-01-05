@@ -2,7 +2,7 @@
 
 function Teamup() {
     return (
-        <div className="flex flex-col w-3/4 border-2 border-white px-4 rounded-xl bg-zinc-800 mb-10">
+        <div className="hover:bg-zinc-700 flex flex-col min-w-[50rem] max-w-[80rem] w-3/4 border-2 border-white px-4 rounded-xl bg-zinc-800 mb-10">
             <div className="w-full border-b-2 border-white flex mb-2 py-4">
                 <div className="basis-3/4 text-3xl font-semibold ">Team Up</div>
                 <div className="basis-1/4 text-lg flex items-center justify-end">June 2023 - August 2023</div>

@@ -2,7 +2,7 @@ import reactLogo from './assets/react.svg'
 
 function Greeting() {
     return (
-        <div className="h-screen">
+        <div className="h-screen" id = 'home'>
             <div className="h-screen bg-[url('./assets/night_sky.jpg')] pt-32 flex flex-col items-center">
                 <div>
                     <div className='font-semibold text-5xl'>Hi, I'm Abdulai</div>
