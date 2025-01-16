@@ -27,7 +27,7 @@ function Debutant() {
                     <div className='ml-4'><img src = {google_cloud} style = {icon_style}/></div>
                 </div>
                 <div className='ml-6 my-6'>
-                    <ul className=''>
+                    <ul className='list-disc'>
                         <li>Deployed a publicly hosted full-stack language-learning platform with 30+ users</li>
                         <li>Built a web-scraper to populate MongoDB database with hundreds of international entries</li>
                         <li>Leveraged Google Cloud Platform to translate thousands of sentences to populate a library of content</li>

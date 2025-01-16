@@ -1,5 +1,5 @@
 import github from './assets/github.svg'
-import tracer_img from './assets/night_sky.jpg'
+import tracer_img from './assets/tracer.png'
 
 import cpp from './assets/c++.svg'
 import c from './assets/c.svg'

@@ -11,12 +11,13 @@ function About() {
                         I'm a Senior at Texas A&M pursuing a Bachelor's in Computer Engineering with a minor in Mathematics.
                         My passion lies in developing software that will leave a positive mark on the world.
                         Towards that end, I'm always looking to learn new technologies and improve my skillset.
+                        A fun fact about me is that French was my first language.
                     </div>
                     <div className="text-3xl mt-4 mb-2">Interests</div>
                     <ul className="list-disc pl-6">
                         <li><strong>Full Stack Development:</strong> Creating products that satisfy all of a user's needs 
                             from data and functionality to visual appeal and ease-of-use </li>
-                        <li><strong>Robotics:</strong> Bridging software and hardware in order to actuate algorithms on the real world </li>
+                        <li><strong>Electronic Systems:</strong> Bridging software and hardware in order to actuate algorithms on the real world </li>
                         <li><strong>Computer Graphics and Animation:</strong> Understanding and Implementing the mechanisms
                             behind our favorite games and movies </li>
                     </ul>
